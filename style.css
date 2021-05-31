@@ -45,7 +45,7 @@ p{
     color: hsla(0, 0%, 100%, 0.75);
 }
 .one{
-    color: color:hsl(31, 77%, 52%);
+    color: hsl(31, 77%, 52%);
 }
 .two{
     color: hsl(184, 100%, 22%);
@@ -96,5 +96,27 @@ p{
     .third{
         width: 90%;
         padding: 2.5rem!important;
+    }
+}
+
+@media (min-width:1024px){
+    .first{
+        padding: 3.5rem!important;
+    }
+    .second{
+        padding: 3.5rem!important;
+    }
+    .third{
+        padding: 3.5rem!important;
+    }
+
+}
+
+@media (min-width:768px){
+    .container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
