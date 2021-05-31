@@ -1,0 +1,73 @@
+.first{
+    background-color: hsl(31, 77%, 52%);
+}
+.first h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: capitalize;
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+
+}
+.second h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: capitalize;
+}
+.third{
+    background-color:  hsl(179, 100%, 13%);
+
+}
+.third h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: capitalize;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn{
+    background-color: hsl(0, 0%, 95%);
+    width: 147px;
+    padding: 12px;
+    border-radius: 26px;
+    margin-top: 32px;
+    
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media (min-width:1440px){
+    .first{
+        width: 26%;
+    }
+    .second{
+        width: 26%;
+    }
+    .third{
+        width: 26%;
+    }
+}
+
+@media (max-width:425px){
+    .first{
+        width: 90%;
+        padding: 2.5rem!important;
+    }
+    .second{
+        width: 90%;
+        padding: 2.5rem!important;
+    }
+    .third{
+        width: 90%;
+        padding: 2.5rem!important;
+    }
+}
